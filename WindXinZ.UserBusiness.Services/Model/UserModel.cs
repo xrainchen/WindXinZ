@@ -1,11 +1,12 @@
 ﻿using System;
+using RainHyacinth.Lite.Imp;
 
 namespace WindXinZ.UserBusiness.Services.Model
 {
     /// <summary>
     /// 用户模型
     /// </summary>
-    public class UserModel
+    public class UserModel: RainLite
     {
         /// <summary>
         /// 姓名

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserBusiness", "UserBusiness", "{D5E782B9-43AB-40EA-9FF8-5C4E63621E2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindXinZ.UserBusiness.Services", "WindXinZ.UserBusiness.Services\WindXinZ.UserBusiness.Services.csproj", "{76BF9B3C-AB78-4D4E-8106-77B7E37AD166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindXinZ.UserBusiness.DTO", "WindXinZ.UserBusiness.DTO\WindXinZ.UserBusiness.DTO.csproj", "{A859F274-17BA-4A6F-9253-02639CA49183}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76BF9B3C-AB78-4D4E-8106-77B7E37AD166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76BF9B3C-AB78-4D4E-8106-77B7E37AD166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76BF9B3C-AB78-4D4E-8106-77B7E37AD166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76BF9B3C-AB78-4D4E-8106-77B7E37AD166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A859F274-17BA-4A6F-9253-02639CA49183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A859F274-17BA-4A6F-9253-02639CA49183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A859F274-17BA-4A6F-9253-02639CA49183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A859F274-17BA-4A6F-9253-02639CA49183}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{76BF9B3C-AB78-4D4E-8106-77B7E37AD166} = {D5E782B9-43AB-40EA-9FF8-5C4E63621E2B}
+		{A859F274-17BA-4A6F-9253-02639CA49183} = {D5E782B9-43AB-40EA-9FF8-5C4E63621E2B}
+	EndGlobalSection
+EndGlobal
