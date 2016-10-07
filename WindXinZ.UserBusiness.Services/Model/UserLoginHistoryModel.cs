@@ -1,6 +1,6 @@
 ﻿using RainHyacinth.Lite.Imp;
 
-namespace WindXinZ.UserBusiness.Services.Model
+namespace WindXinZ.UserBusiness.BLL.Model
 {
     /// <summary>
     /// 用户登录历史记录

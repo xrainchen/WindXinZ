@@ -5,9 +5,17 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserBusiness", "UserBusiness", "{D5E782B9-43AB-40EA-9FF8-5C4E63621E2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindXinZ.UserBusiness.Services", "WindXinZ.UserBusiness.Services\WindXinZ.UserBusiness.Services.csproj", "{76BF9B3C-AB78-4D4E-8106-77B7E37AD166}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindXinZ.UserBusiness.BLL", "WindXinZ.UserBusiness.Services\WindXinZ.UserBusiness.BLL.csproj", "{76BF9B3C-AB78-4D4E-8106-77B7E37AD166}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindXinZ.UserBusiness.DTO", "WindXinZ.UserBusiness.DTO\WindXinZ.UserBusiness.DTO.csproj", "{A859F274-17BA-4A6F-9253-02639CA49183}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindXinZ.UserBusiness.Client", "WindXinZ.UserBusiness.Client\WindXinZ.UserBusiness.Client.csproj", "{4782C786-D134-4DBA-AD32-EEEA8C212A7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindXinZ.Infrastructure.Common", "WindXinZ.Infrastructure.Common\WindXinZ.Infrastructure.Common.csproj", "{D0DDB961-A4DE-4C13-B3D0-E7D548FFEF15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindXinZ.Test", "WindXinZ.Test\WindXinZ.Test.csproj", "{1D0D6702-88FB-4D1E-9066-66DD67E4E080}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{2C518E72-74AC-4F7E-81DF-E6DD7A92A64F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +31,18 @@ Global
 		{A859F274-17BA-4A6F-9253-02639CA49183}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A859F274-17BA-4A6F-9253-02639CA49183}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A859F274-17BA-4A6F-9253-02639CA49183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4782C786-D134-4DBA-AD32-EEEA8C212A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4782C786-D134-4DBA-AD32-EEEA8C212A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4782C786-D134-4DBA-AD32-EEEA8C212A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4782C786-D134-4DBA-AD32-EEEA8C212A7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0DDB961-A4DE-4C13-B3D0-E7D548FFEF15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0DDB961-A4DE-4C13-B3D0-E7D548FFEF15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0DDB961-A4DE-4C13-B3D0-E7D548FFEF15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0DDB961-A4DE-4C13-B3D0-E7D548FFEF15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D0D6702-88FB-4D1E-9066-66DD67E4E080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D0D6702-88FB-4D1E-9066-66DD67E4E080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D0D6702-88FB-4D1E-9066-66DD67E4E080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D0D6702-88FB-4D1E-9066-66DD67E4E080}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,5 +50,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{76BF9B3C-AB78-4D4E-8106-77B7E37AD166} = {D5E782B9-43AB-40EA-9FF8-5C4E63621E2B}
 		{A859F274-17BA-4A6F-9253-02639CA49183} = {D5E782B9-43AB-40EA-9FF8-5C4E63621E2B}
+		{4782C786-D134-4DBA-AD32-EEEA8C212A7F} = {D5E782B9-43AB-40EA-9FF8-5C4E63621E2B}
+		{D0DDB961-A4DE-4C13-B3D0-E7D548FFEF15} = {2C518E72-74AC-4F7E-81DF-E6DD7A92A64F}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,97 @@
+﻿time:2016-10-07 16:35:19 520|ThreadId:10|message:【Application Booting】
+time:2016-10-07 16:35:19 904|ThreadId:10|message:Load assembly RainHyacinth and create instance RainHyacinth.Lite.LiteDependcyInjectRegister success!
+time:2016-10-07 16:35:19 987|ThreadId:10|message:Load assembly RainHyacinth.BLL and create instance RainHyacinth.BLL.RainHyacinthBllDependencyInjectRegister occur exception!
+time:2016-10-07 16:35:19 991|ThreadId:10|message:System.IO.FileNotFoundException: 未能加载文件或程序集“RainHyacinth.BLL”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“RainHyacinth.BLL”
+   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   在 System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   在 System.Reflection.Assembly.Load(String assemblyString)
+   在 RainHyacinth.Utils.AssemblyUtil.CreateInstance[T](String assembly, String typeName)
+   在 RainHyacinth.Inject.Imp.DependencyInjectHub.InitLoad()
+
+=== 预绑定状态信息 ===
+日志: DisplayName = RainHyacinth.BLL
+ (Partial)
+警告: 为程序集提供了部分绑定信息:
+警告: 程序集名称: RainHyacinth.BLL | 域 ID: 1
+警告: 当仅提供程序集显示名称的一部分时，将发生部分绑定。
+警告: 这可能导致联编程序加载错误的程序集。
+警告: 建议为程序集提供完全指定的文字标识，
+警告: 并由简单名称、版本、区域性和公钥标记组成。
+警告: 有关此问题的详细信息和常见解决方案，请参见白皮书 http://go.microsoft.com/fwlink/?LinkId=109270。
+日志: Appbase = file:///D:/工程/WindXinZ/WindXinZ.Test/bin/Debug/
+日志: 初始 PrivatePath = NULL
+调用程序集: RainHyacinth, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null。
+===
+日志: 此绑定从 default 加载上下文开始。
+日志: 正在使用应用程序配置文件: D:\工程\WindXinZ\WindXinZ.Test\bin\Debug\WindXinZ.Test.vshost.exe.Config
+日志: 使用主机配置文件: 
+日志: 使用 C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config 的计算机配置文件。
+日志: 此时没有为引用应用策略(私有、自定义、分部或基于位置的程序集绑定)。
+日志: 尝试下载新的 URL file:///D:/工程/WindXinZ/WindXinZ.Test/bin/Debug/RainHyacinth.BLL.DLL。
+日志: 尝试下载新的 URL file:///D:/工程/WindXinZ/WindXinZ.Test/bin/Debug/RainHyacinth.BLL/RainHyacinth.BLL.DLL。
+日志: 尝试下载新的 URL file:///D:/工程/WindXinZ/WindXinZ.Test/bin/Debug/RainHyacinth.BLL.EXE。
+日志: 尝试下载新的 URL file:///D:/工程/WindXinZ/WindXinZ.Test/bin/Debug/RainHyacinth.BLL/RainHyacinth.BLL.EXE。
+
+time:2016-10-07 16:35:20 015|ThreadId:10|message:Invoke RainHyacinth.BLL→RainHyacinth.BLL.RainHyacinthBllDependencyInjectRegister 's Method 【Register】 Error,System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 RainHyacinth.Inject.Imp.DependencyInjectHub.InitLoad()
+time:2016-10-07 16:35:20 094|ThreadId:10|message:【Application Boot End】
+
+
+time:2016-10-07 16:39:43 891|ThreadId:9|message:【Application Booting】
+time:2016-10-07 16:39:44 381|ThreadId:9|message:Load assembly RainHyacinth and create instance RainHyacinth.Lite.LiteDependcyInjectRegister success!
+time:2016-10-07 16:39:44 471|ThreadId:9|message:Load assembly WindXinZ.UserBusiness.BLL and create instance WindXinZ.UserBusiness.BLL.WindXinZUserBusinessBLLDependencyInjectRegister success!
+time:2016-10-07 16:39:44 612|ThreadId:9|message:【Application Boot End】
+
+
+time:2016-10-07 16:43:36 683|ThreadId:9|message:【Application Booting】
+time:2016-10-07 16:43:36 983|ThreadId:9|message:Load assembly RainHyacinth and create instance RainHyacinth.Lite.LiteDependcyInjectRegister success!
+time:2016-10-07 16:43:37 036|ThreadId:9|message:Load assembly WindXinZ.UserBusiness.BLL and create instance WindXinZ.UserBusiness.BLL.WindXinZUserBusinessBLLDependencyInjectRegister success!
+time:2016-10-07 16:43:37 243|ThreadId:9|message:【Application Boot End】
+
+
+time:2016-10-07 16:44:32 078|ThreadId:10|message:【Application Booting】
+time:2016-10-07 16:44:32 393|ThreadId:10|message:Load assembly RainHyacinth and create instance RainHyacinth.Lite.LiteDependcyInjectRegister success!
+time:2016-10-07 16:44:32 494|ThreadId:10|message:Load assembly WindXinZ.UserBusiness.BLL and create instance WindXinZ.UserBusiness.BLL.WindXinZUserBusinessBLLDependencyInjectRegister success!
+time:2016-10-07 16:44:32 645|ThreadId:10|message:【Application Boot End】
+
+
+time:2016-10-07 16:44:54 564|ThreadId:10|message:【Application Booting】
+time:2016-10-07 16:44:55 029|ThreadId:10|message:Load assembly RainHyacinth and create instance RainHyacinth.Lite.LiteDependcyInjectRegister success!
+time:2016-10-07 16:44:55 070|ThreadId:10|message:Load assembly WindXinZ.UserBusiness.BLL and create instance WindXinZ.UserBusiness.BLL.WindXinZUserBusinessBLLDependencyInjectRegister success!
+time:2016-10-07 16:44:55 197|ThreadId:10|message:【Application Boot End】
+
+
+time:2016-10-07 16:45:46 726|ThreadId:9|message:【Application Booting】
+time:2016-10-07 16:45:47 323|ThreadId:9|message:Load assembly RainHyacinth and create instance RainHyacinth.Lite.LiteDependcyInjectRegister success!
+time:2016-10-07 16:45:47 385|ThreadId:9|message:Load assembly WindXinZ.UserBusiness.BLL and create instance WindXinZ.UserBusiness.BLL.WindXinZUserBusinessBLLDependencyInjectRegister success!
+time:2016-10-07 16:45:47 688|ThreadId:9|message:【Application Boot End】
+
+
+time:2016-10-07 16:48:49 772|ThreadId:9|message:【Application Booting】
+time:2016-10-07 16:48:50 306|ThreadId:9|message:Load assembly RainHyacinth and create instance RainHyacinth.Lite.LiteDependcyInjectRegister success!
+time:2016-10-07 16:48:50 416|ThreadId:9|message:Load assembly WindXinZ.UserBusiness.BLL and create instance WindXinZ.UserBusiness.BLL.WindXinZUserBusinessBLLDependencyInjectRegister success!
+time:2016-10-07 16:48:50 578|ThreadId:9|message:【Application Boot End】
+
+
+time:2016-10-07 16:49:31 650|ThreadId:9|message:【Application Booting】
+time:2016-10-07 16:49:32 132|ThreadId:9|message:Load assembly RainHyacinth and create instance RainHyacinth.Lite.LiteDependcyInjectRegister success!
+time:2016-10-07 16:49:32 226|ThreadId:9|message:Load assembly WindXinZ.UserBusiness.BLL and create instance WindXinZ.UserBusiness.BLL.WindXinZUserBusinessBLLDependencyInjectRegister success!
+time:2016-10-07 16:49:32 303|ThreadId:9|message:【Application Boot End】
+
+
+time:2016-10-07 16:54:06 892|ThreadId:8|message:【Application Booting】
+time:2016-10-07 16:54:07 280|ThreadId:8|message:Load assembly RainHyacinth and create instance RainHyacinth.Lite.LiteDependcyInjectRegister success!
+time:2016-10-07 16:54:07 334|ThreadId:8|message:Load assembly WindXinZ.UserBusiness.BLL and create instance WindXinZ.UserBusiness.BLL.WindXinZUserBusinessBLLDependencyInjectRegister success!
+time:2016-10-07 16:54:07 572|ThreadId:8|message:【Application Boot End】
+
+
+time:2016-10-07 16:56:02 665|ThreadId:9|message:【Application Booting】
+time:2016-10-07 16:56:03 115|ThreadId:9|message:Load assembly RainHyacinth and create instance RainHyacinth.Lite.LiteDependcyInjectRegister success!
+time:2016-10-07 16:56:03 217|ThreadId:9|message:Load assembly WindXinZ.UserBusiness.BLL and create instance WindXinZ.UserBusiness.BLL.WindXinZUserBusinessBLLDependencyInjectRegister success!
+time:2016-10-07 16:56:03 381|ThreadId:9|message:【Application Boot End】
+
+

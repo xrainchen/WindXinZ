@@ -1,0 +1,5 @@
+D:\工程\WindXinZ\WindXinZ.Infrastructure.Common\bin\Debug\WindXinZ.Infrastructure.Common.dll
+D:\工程\WindXinZ\WindXinZ.Infrastructure.Common\bin\Debug\WindXinZ.Infrastructure.Common.pdb
+D:\工程\WindXinZ\WindXinZ.Infrastructure.Common\obj\Debug\WindXinZ.Infrastructure.Common.csprojResolveAssemblyReference.cache
+D:\工程\WindXinZ\WindXinZ.Infrastructure.Common\obj\Debug\WindXinZ.Infrastructure.Common.dll
+D:\工程\WindXinZ\WindXinZ.Infrastructure.Common\obj\Debug\WindXinZ.Infrastructure.Common.pdb

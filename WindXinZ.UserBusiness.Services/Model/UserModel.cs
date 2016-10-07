@@ -1,12 +1,12 @@
 ﻿using System;
 using RainHyacinth.Lite.Imp;
 
-namespace WindXinZ.UserBusiness.Services.Model
+namespace WindXinZ.UserBusiness.BLL.Model
 {
     /// <summary>
     /// 用户模型
     /// </summary>
-    public class UserModel: RainLite
+    public class UserModel : RainLite
     {
         /// <summary>
         /// 姓名
@@ -17,6 +17,14 @@ namespace WindXinZ.UserBusiness.Services.Model
         /// </summary>
         public SexEnum Sex { get; set; }
         /// <summary>
+        /// 年龄
+        /// </summary>
+        public int Age { get; set; }
+        /// <summary>
+        /// 身份证号码
+        /// </summary>
+        public string IdCardNo { get; set; }
+        /// <summary>
         /// 密码
         /// </summary>
         public string Password { get; set; }
@@ -24,6 +32,15 @@ namespace WindXinZ.UserBusiness.Services.Model
         /// 用户名
         /// </summary>
         public string UserName { get; set; }
+        /// <summary>
+        /// 昵称
+        /// </summary>
+        public string NickName { get; set; }
+        /// <summary>
+        /// 头像
+        /// </summary>
+        public string HeadPic { get; set; }
+
         /// <summary>
         /// 用户类型
         /// </summary>
